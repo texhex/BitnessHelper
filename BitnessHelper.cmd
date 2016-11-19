@@ -1,7 +1,7 @@
-@REM 32/64-bit (Bitness) Helper 
+@REM Bitness (32-/64-bit) Helper 
 @REM Copyright © 2010-2016 Michael 'Tex' Hex - http://www.texhex.info/
 @REM Licensed under the Apache License, Version 2.0. 
- 
+@REM https://github.com/texhex/BitnessHelper
 
 @REM This variable only exists on X64 (64-bit machines)
 @REM if defined ProgramFiles(x86) GOTO Win_x64

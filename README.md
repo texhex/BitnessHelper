@@ -1,14 +1,14 @@
 # BitnessHelper
-A Windows batch file to get correct 32-, 64-bit and native system folder locations. 
+A Windows batch file to get correct 32-, 64-bit and native system folder locations. See this [blog post](http://texhex.blogspot.com/2016/11/windows-bitness-helper.html) for a full description of the problem.  
 
 ## How to use ##
 
-Just download ``BitnessHelper.cmd``, put it in the same path as the batch file you want to use it from and add the following
+Just download ``BitnessHelper.cmd``, put it in the same path as the batch file you want to use it from and add the following line:
 ```batch
 call "%~dp0BitnessHelper.cmd"
 ```
 
-Once done, you can access the _BIT_ environment variables (WoW example):
+Once done, you can access the ``_BIT_xxx`` environment variables:
 ```batch
 _BIT_CommonProg_32=C:\Program Files (x86)\Common Files
 _BIT_CommonProg_64=C:\Program Files\Common Files
@@ -40,4 +40,4 @@ REM This will work in 32-bit, 64-bit or when running as WOW
 Any constructive contribution is very welcome! If you encounter a bug or have an addition, please create a [new issue](https://github.com/texhex/BitnessHelper/issues/new).
 
 ## License
-Copyright © 2016 [Michael Hex](http://www.texhex.info/). Licensed under the **Apache 2 License**. For details, please see LICENSE.txt.
+Copyright © 2010-2016 [Michael Hex](http://www.texhex.info/). Licensed under the **Apache 2 License**. For details, please see LICENSE.txt.
